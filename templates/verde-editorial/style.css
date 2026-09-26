@@ -1,0 +1,19 @@
+.resume-document { --ink: #25352e; --muted: #66766e; --accent: #547763; --rule: #dfe7e1; font-family: Georgia, "Times New Roman", serif; color: var(--ink); }
+.resume-page { box-sizing: border-box; width: 210mm; min-height: 297mm; margin: 0 auto; padding: 19mm 20mm; background: #fff; }
+.template-editorial .resume-kicker { margin: 0 0 9px; color: var(--accent); font: 700 8pt/1.2 Arial, sans-serif; letter-spacing: .2em; }
+.template-editorial h1 { margin: 0; font-size: 31pt; font-weight: 500; line-height: 1.05; letter-spacing: -.04em; }
+.template-editorial .resume-headline { margin: 8px 0 12px; color: var(--accent); font: 600 11pt/1.3 Arial, sans-serif; }
+.template-editorial .resume-contact { display: flex; flex-wrap: wrap; gap: 5px 14px; color: var(--muted); font: 8pt/1.4 Arial, sans-serif; }
+.template-editorial .resume-rule { height: 1px; margin-top: 17px; background: var(--rule); }
+.template-editorial section { margin-top: 16px; }
+.template-editorial section h2 { margin: 0 0 7px; color: var(--accent); font: 700 8pt/1.2 Arial, sans-serif; text-transform: uppercase; letter-spacing: .18em; }
+.template-editorial section p { margin: 0; font-size: 9.5pt; line-height: 1.6; }
+.template-editorial .resume-entry { margin: 0 0 10px; break-inside: avoid; }
+.template-editorial .resume-entry-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.template-editorial .resume-entry h3 { margin: 0; font-size: 10pt; font-weight: 700; }
+.template-editorial .resume-entry-top > span { white-space: nowrap; color: var(--muted); font: 8pt Arial, sans-serif; }
+.template-editorial .resume-subline { display: flex; justify-content: space-between; gap: 8px; margin-top: 2px !important; color: var(--muted); font: 8pt Arial, sans-serif !important; }
+.template-editorial ul { margin: 4px 0 0; padding-left: 16px; font: 8.5pt/1.5 Arial, sans-serif; }
+.template-editorial li { margin: 2px 0; }
+.template-editorial .resume-bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media print { @page { size: A4; margin: 0; } .resume-page { width: 210mm; min-height: 297mm; margin: 0; padding: 19mm 20mm; box-shadow: none; } }

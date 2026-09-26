@@ -1,0 +1,22 @@
+.resume-document { --ink: #23342d; --muted: #607067; --accent: #356b53; --wash: #eef3ef; font-family: Arial, Helvetica, sans-serif; color: var(--ink); }
+.resume-page { box-sizing: border-box; width: 210mm; min-height: 297mm; margin: 0 auto; padding: 0; background: #fff; }
+.template-sidebar .resume-header { padding: 17mm 17mm 13mm; background: var(--wash); border-bottom: 3px solid var(--accent); }
+.template-sidebar .resume-kicker { margin: 0 0 5px; color: var(--accent); font-size: 8pt; font-weight: 700; letter-spacing: .2em; }
+.template-sidebar h1 { margin: 0; font: 800 27pt/1.08 Arial, sans-serif; letter-spacing: -.045em; }
+.template-sidebar .resume-headline { margin: 5px 0 10px; color: var(--accent); font-size: 11pt; font-weight: 700; }
+.template-sidebar .resume-contact { display: flex; flex-wrap: wrap; gap: 5px 13px; color: var(--muted); font-size: 8pt; }
+.template-sidebar .resume-columns { display: grid; grid-template-columns: 1fr 54mm; min-height: 220mm; }
+.template-sidebar .resume-columns > main { padding: 5mm 8mm 15mm 17mm; }
+.template-sidebar .resume-columns > aside { padding: 5mm 8mm 15mm; background: #f7f9f7; }
+.template-sidebar section { margin: 14px 0 0; }
+.template-sidebar section h2 { margin: 0 0 7px; color: var(--accent); text-transform: uppercase; font-size: 8.5pt; letter-spacing: .13em; }
+.template-sidebar section p { margin: 0; font-size: 9pt; line-height: 1.5; }
+.template-sidebar .resume-entry { margin: 0 0 10px; break-inside: avoid; }
+.template-sidebar .resume-entry-top { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
+.template-sidebar .resume-entry h3 { margin: 0; font-size: 9.5pt; }
+.template-sidebar .resume-entry-top > span { color: var(--muted); white-space: nowrap; font-size: 7.5pt; }
+.template-sidebar .resume-subline { display: flex; justify-content: space-between; gap: 5px; margin-top: 2px !important; color: var(--muted); font-size: 8pt !important; }
+.template-sidebar ul { margin: 5px 0 0; padding-left: 15px; font-size: 8.25pt; line-height: 1.45; }
+.template-sidebar li { margin: 3px 0; }
+.template-sidebar aside ul { padding-left: 14px; }
+@media print { @page { size: A4; margin: 0; } .resume-page { width: 210mm; min-height: 297mm; margin: 0; box-shadow: none; } }

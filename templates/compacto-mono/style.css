@@ -1,0 +1,18 @@
+.resume-document{--ink:#25292c;--muted:#61686d;--rule:#d8dcde;font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+.template-mono{box-sizing:border-box;width:210mm;min-height:297mm;margin:0 auto;padding:15mm 17mm;background:#fff}
+.template-mono .resume-header{padding-bottom:10px;border-bottom:2px solid #303438}
+.template-mono h1{margin:0;font:800 24pt/1.05 Arial,sans-serif;letter-spacing:-.045em}
+.template-mono .resume-headline{margin:5px 0 8px;color:#555e63;font-size:10pt;font-weight:700}
+.template-mono .resume-contact{display:flex;flex-wrap:wrap;gap:4px 12px;color:var(--muted);font-size:7.8pt}
+.template-mono section{margin-top:12px}
+.template-mono section h2{margin:0 0 5px;padding-bottom:3px;border-bottom:1px solid var(--rule);font-size:8pt;letter-spacing:.1em;text-transform:uppercase}
+.template-mono section p{margin:0;font-size:8.7pt;line-height:1.4}
+.template-mono .resume-entry{margin-bottom:7px;break-inside:avoid}
+.template-mono .resume-entry-top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.template-mono .resume-entry h3{margin:0;font-size:9pt}
+.template-mono .resume-entry-top>span,.template-mono .resume-subline{color:var(--muted);font-size:7.6pt}
+.template-mono .resume-subline{display:flex;justify-content:space-between;gap:8px;margin:2px 0}
+.template-mono ul{margin:3px 0 0;padding-left:15px;font-size:8pt;line-height:1.3}
+.template-mono li{margin:1px 0}
+.template-mono .resume-bottom{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}
+@media print{@page{size:A4;margin:0}.template-mono{width:210mm;min-height:297mm;margin:0;padding:15mm 17mm}}

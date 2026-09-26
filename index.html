@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F7F6F2" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="description" content="Apoio para quem busca emprego: crie seu currículo, prepare-se para entrevistas e organize sua procura por vagas." />
+    <title>conectavagasdf — apoio para quem busca emprego</title>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icons/conectavagasdf.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/manrope-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <style>
+      @font-face{font-family:'DM Sans';font-style:normal;font-display:swap;font-weight:400;src:url('/fonts/dm-sans-latin-400-normal.woff2') format('woff2')}
+      @font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:800;src:url('/fonts/manrope-latin-800-normal.woff2') format('woff2')}
+      html,body{margin:0;min-height:100%;background:var(--preload-bg,#F7F6F2);color:var(--preload-ink,#1A1A1A)}
+      html[data-theme=dark]{color-scheme:dark;--preload-bg:#101713;--preload-ink:#e7eee8;--preload-surface:#13221c;--preload-raised:#17271f;--preload-border:#294237;--preload-skeleton:#263b2d}
+      .initial-home{min-height:100vh;background:#F7F6F2;color:#1A1A1A;font-family:'DM Sans',system-ui,sans-serif}
+      .initial-header{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 max(36px,calc((100vw - 1280px)/2));border-bottom:1px solid rgba(228,228,231,.5);background:rgba(247,246,242,.9)}
+      .initial-brand{display:flex;align-items:center;gap:9px;color:#1A1A1A;font:800 19px Manrope,sans-serif;letter-spacing:-.06em;text-decoration:none}
+      .initial-mark{display:grid;place-items:center;width:29px;height:29px;border-radius:10px;background:#1A4331;color:#fff;font:800 17px Manrope,sans-serif}
+      .initial-actions{display:flex;align-items:center;gap:14px}
+      .initial-actions a,.initial-hero a{color:inherit;text-decoration:none;font-size:13px;font-weight:700}
+      .initial-actions a{display:inline-flex;align-items:center;min-height:44px}
+      .initial-actions .initial-signup{text-decoration:underline;text-underline-offset:3px}
+      .initial-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:12px;background:#1A4331;color:white!important}
+      .initial-primary{min-height:48px;padding:0 24px;background:#1A4331;color:#fff!important}
+      .initial-hero{width:min(1190px,calc(100% - 72px));min-height:604px;margin:auto;display:flex;align-items:center;padding:55px 0 75px}
+      .initial-copy{max-width:570px}
+      .initial-eyebrow{display:inline-block;padding:6px 12px;border-radius:999px;background:#EAF1EC;color:#2D6A4F;font-size:12px;font-weight:600;letter-spacing:.15em}
+      .initial-copy h1{margin:28px 0 19px;color:#1A1A1A;font:400 clamp(48px,5.2vw,72px)/1.06 Georgia,'Times New Roman',serif;letter-spacing:-.045em}
+      .initial-copy h1 em{color:#2D6A4F;font-family:Georgia,'Times New Roman',serif;font-weight:400}
+      .initial-copy>p{max-width:460px;color:#52525B;font-size:16px;line-height:1.65}
+      .initial-hero-actions{display:flex;align-items:center;gap:25px;margin-top:27px}
+      .initial-hero-actions .initial-link{display:inline-flex;align-items:center;min-height:44px;color:#40554a;text-decoration:underline}
+      .initial-note{margin-top:20px;color:#536258;font-size:14px}
+      .initial-note a{text-decoration:underline}
+      .initial-home a:focus-visible{outline:3px solid #1A4331;outline-offset:3px}
+      .initial-shell{display:none;min-height:100vh;background:#F7F6F2;color:#1A1A1A;font-family:Arial,sans-serif}
+      .initial-shell-header{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 max(36px,calc((100vw - 1280px)/2));border-bottom:1px solid #E4E4E7;background:#F7F6F2}
+      .initial-shell-content{width:min(1120px,calc(100% - 56px));margin:0 auto;padding:64px 0}
+      .initial-shell-eyebrow,.initial-shell-line,.initial-shell-card,.initial-shell-pill{display:block;border-radius:12px;background:#E4E4E7}
+      .initial-shell-eyebrow{width:110px;height:20px;border-radius:99px}
+      .initial-shell-line{width:min(540px,80%);height:22px;margin-top:20px}
+      .initial-shell-title{width:min(420px,70%);height:44px;margin-top:18px}
+      .initial-shell-short{width:min(340px,55%);height:16px;margin-top:16px}
+      .initial-shell-pills{display:flex;gap:12px}.initial-shell-pill{width:86px;height:16px}
+      .initial-shell-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:42px}
+      .initial-shell-card{height:180px;background:#E4E4E7}
+      .initial-other-route .initial-home{display:none}
+      .initial-other-route .initial-shell{display:block}
+      html[data-theme=dark] body,html[data-theme=dark] .initial-other-route .initial-shell{background:#101713;color:#e7eee8}
+      html[data-theme=dark] .initial-other-route .initial-shell-header{border-color:#294237;background:#131c18}
+      html[data-theme=dark] .initial-other-route .initial-shell-eyebrow,html[data-theme=dark] .initial-other-route .initial-shell-line,html[data-theme=dark] .initial-other-route .initial-shell-card,html[data-theme=dark] .initial-other-route .initial-shell-pill{background:#263b2d}
+      @media(max-width:760px){.initial-header{height:auto;min-height:63px;padding:10px 18px;flex-wrap:wrap}.initial-actions{width:100%;gap:9px}.initial-actions a{font-size:12px}.initial-actions .initial-button{flex:1}.initial-hero{width:calc(100% - 40px);min-height:calc(100vh - 110px);padding:42px 0;align-items:flex-start}.initial-copy h1{font-size:clamp(42px,10.5vw,56px)}.initial-copy>p{font-size:16px}.initial-hero-actions{align-items:flex-start;flex-direction:column;gap:8px}.initial-hero-actions .initial-primary{width:100%}.initial-shell-header{height:63px;padding:0 18px}.initial-shell-pills{display:none}.initial-shell-content{width:calc(100% - 40px);padding:48px 0}.initial-shell-grid{grid-template-columns:1fr}.initial-shell-card{height:120px}}
+    </style>
+    <script src="/initial-route.js"></script>
+  </head>
+  <body style="background-color:var(--preload-bg,#F7F6F2);margin:0">
+    <div id="root"><div class="initial-home"><header class="initial-header"><a class="initial-brand" href="/"><span class="initial-mark">c.</span>conectavagasdf</a><div class="initial-actions"><a href="/login">Entrar</a><a class="initial-signup" href="/cadastro">Criar conta</a><a class="initial-button" href="/dashboard">Acessar criador de currículo →</a></div></header><main class="initial-hero"><div class="initial-copy"><div class="initial-eyebrow">UM PASSO DE CADA VEZ</div><h1>Está procurando emprego? <em>Vamos dar o próximo passo.</em></h1><p>Conheça ferramentas para montar um currículo profissional, preparar entrevistas e organizar sua busca por vagas — mesmo sem experiência.</p><div class="initial-hero-actions"><a class="initial-button initial-primary" href="/dashboard">Acessar criador de currículo →</a><a class="initial-link" href="/aprender">Quero aprender primeiro →</a></div><div class="initial-note">Entre na sua conta para salvar seu progresso. <a href="/privacidade">Saiba como seus dados são usados.</a></div></div></main></div><div class="initial-shell" aria-label="Preparando conteúdo"><header class="initial-shell-header"><a class="initial-brand" href="/"><span class="initial-mark">c.</span>conectavagasdf</a><div class="initial-shell-pills" aria-hidden="true"><span class="initial-shell-pill"></span><span class="initial-shell-pill"></span><span class="initial-shell-pill"></span></div></header><main class="initial-shell-content" aria-hidden="true"><span class="initial-shell-eyebrow"></span><span class="initial-shell-line initial-shell-title"></span><span class="initial-shell-line initial-shell-short"></span><div class="initial-shell-grid"><span class="initial-shell-card"></span><span class="initial-shell-card"></span><span class="initial-shell-card"></span></div></main></div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

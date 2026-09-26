@@ -1,0 +1,21 @@
+.resume-document{--ink:#27373a;--muted:#657477;--rule:#dbe4e4;--accent:#58717a;font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+.template-columns{box-sizing:border-box;width:210mm;min-height:297mm;margin:0 auto;background:#fff}
+.template-columns .resume-header{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;padding:17mm 17mm 12mm;background:#eaf0f0;border-top:7px solid #58717a}
+.template-columns .resume-label{margin:0 0 6px;color:var(--accent);font-size:8pt;font-weight:700;letter-spacing:.17em}
+.template-columns h1{margin:0;font:800 25pt/1.07 Arial,sans-serif;letter-spacing:-.04em}
+.template-columns .resume-headline{margin:5px 0 0;color:var(--accent);font-size:10.5pt;font-weight:700}
+.template-columns .resume-contact{display:grid;gap:4px;color:var(--muted);font-size:7.7pt;text-align:right}
+.template-columns .resume-grid{display:grid;grid-template-columns:minmax(0,1fr) 51mm;min-height:220mm}
+.template-columns main{padding:4mm 8mm 14mm 17mm}
+.template-columns aside{padding:4mm 9mm 14mm;background:#f5f7f7}
+.template-columns section{margin-top:13px}
+.template-columns section h2{margin:0 0 6px;color:var(--accent);font-size:8.3pt;letter-spacing:.12em;text-transform:uppercase}
+.template-columns section p{margin:0;font-size:8.8pt;line-height:1.45}
+.template-columns .resume-entry{margin-bottom:8px;break-inside:avoid}
+.template-columns .resume-entry-top{display:flex;justify-content:space-between;gap:6px;align-items:baseline}
+.template-columns .resume-entry h3{margin:0;font-size:9.3pt}
+.template-columns .resume-entry-top>span,.template-columns .resume-subline{color:var(--muted);font-size:7.5pt}
+.template-columns .resume-subline{display:flex;justify-content:space-between;gap:5px;margin:2px 0}
+.template-columns ul{margin:4px 0 0;padding-left:14px;font-size:7.8pt;line-height:1.38}
+.template-columns li{margin:2px 0}
+@media print{@page{size:A4;margin:0}.template-columns{width:210mm;min-height:297mm;margin:0}}

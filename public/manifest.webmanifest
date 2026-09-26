@@ -1,0 +1,20 @@
+{
+  "name": "conectavagasdf — apoio para quem busca emprego",
+  "short_name": "conectavagasdf",
+  "description": "Currículo, candidaturas, entrevistas e orientação para a busca de emprego.",
+  "lang": "pt-BR",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#286345",
+  "icons": [
+    { "src": "/icons/conectavagasdf.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/conectavagasdf-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Meu painel", "url": "/dashboard" },
+    { "name": "Candidaturas", "url": "/candidaturas" },
+    { "name": "Criar currículo", "url": "/editor" }
+  ]
+}

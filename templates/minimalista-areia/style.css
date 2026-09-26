@@ -1,0 +1,18 @@
+.resume-document{--ink:#342f2a;--muted:#82796f;--rule:#e9e1d7;font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+.template-sand{box-sizing:border-box;width:210mm;min-height:297mm;margin:0 auto;padding:20mm 21mm;background:#fff}
+.template-sand .resume-header{padding:0 0 16px;border-bottom:1px solid #d6c7b6}
+.template-sand .resume-label{margin:0 0 8px;color:#98785b;font-size:8pt;font-weight:700;letter-spacing:.2em}
+.template-sand h1{margin:0;font:600 27pt/1.1 Georgia,serif;letter-spacing:-.035em}
+.template-sand .resume-headline{margin:7px 0 11px;color:#98785b;font:italic 12pt Georgia,serif}
+.template-sand .resume-contact{display:flex;flex-wrap:wrap;gap:5px 14px;color:var(--muted);font-size:8.5pt}
+.template-sand section{margin-top:17px}
+.template-sand section h2{margin:0 0 7px;color:#806448;font:600 12pt Georgia,serif}
+.template-sand section p{margin:0;font-size:9.5pt;line-height:1.55}
+.template-sand .resume-entry{margin-bottom:10px;break-inside:avoid}
+.template-sand .resume-entry-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.template-sand .resume-entry h3{margin:0;font-size:10pt}
+.template-sand .resume-entry-top>span,.template-sand .resume-subline{color:var(--muted);font-size:8.5pt}
+.template-sand .resume-subline{display:flex;justify-content:space-between;gap:8px;margin:3px 0}
+.template-sand ul{margin:4px 0 0;padding-left:17px;font-size:9pt;line-height:1.45}
+.template-sand .resume-skills{display:grid;grid-template-columns:1.5fr 1fr;gap:20px}
+@media print{@page{size:A4;margin:0}.template-sand{width:210mm;min-height:297mm;margin:0;padding:20mm 21mm}}

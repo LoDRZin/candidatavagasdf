@@ -1,0 +1,7 @@
+.resume-document .editorial-resume{--ed-accent:var(--theme-accent)!important;--ed-soft:color-mix(in srgb,var(--theme-accent) 10%,#fff)!important}
+.resume-document .editorial-resume.family-dark,.resume-document .editorial-resume.family-cyber-neon,.resume-document .editorial-resume.family-cyber-terminal,.resume-document .editorial-resume.family-blueprint{--ed-accent:color-mix(in srgb,var(--theme-accent) 42%,#fff)!important;--ed-soft:color-mix(in srgb,var(--theme-accent) 22%,#192c38)!important}
+.resume-document .template-ats .resume-headline,.resume-document .template-ats section h2{color:var(--theme-accent)}
+.resume-document .template-executive>.resume-header,.resume-document .template-terra .resume-header,.resume-document .template-mono .resume-header{border-color:var(--theme-accent)}
+.resume-document .template-executive h1,.resume-document .template-executive .resume-headline,.resume-document .template-executive section h2,.resume-document .template-sand .resume-label,.resume-document .template-sand .resume-headline,.resume-document .template-sand section h2,.resume-document .template-terra .resume-label,.resume-document .template-terra .resume-headline,.resume-document .template-terra section h2,.resume-document .template-mono .resume-headline,.resume-document .template-mono section h2{color:var(--theme-accent)}
+.resume-document .template-sand .resume-header{border-color:var(--theme-accent)}
+.resume-document .template-columns .resume-header{border-color:var(--theme-accent)}

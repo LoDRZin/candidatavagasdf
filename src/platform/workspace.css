@@ -1,0 +1,228 @@
+/* Shared composition for authenticated workspace pages. */
+.dashboard-page-container>.app-root{min-width:0}
+.zeno-workspace-page{display:grid;width:100%;gap:28px;color:#273e36}
+.dashboard-page-container .zeno-workspace-page{max-width:none;min-height:0;margin:0;padding:0;background:transparent}
+.zeno-workspace-page h1,.zeno-workspace-page h2,.zeno-workspace-page h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.045em}
+.zeno-workspace-header{display:flex;width:100%;max-width:none;align-items:flex-end;justify-content:space-between;gap:24px;margin:0;padding:0;flex-wrap:wrap}
+.zeno-workspace-header>div{min-width:0;max-width:780px}
+.zeno-workspace-header .zeno-eyebrow{display:flex;align-items:center;gap:8px;margin:0;color:#577065;font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
+.zeno-workspace-header h1{margin:8px 0 0;color:#173c32;font-size:36px;line-height:1.1}
+.zeno-workspace-header h1 em{color:#62846c;font:inherit;font-style:italic}
+.zeno-workspace-header p:not(.zeno-eyebrow){max-width:680px;margin:8px 0 0;color:#57534e;font-size:14px;line-height:1.65}
+.zeno-workspace-header>.button{flex:none;margin:0}
+.zeno-workspace-page>.site-footer{display:none}
+
+/* Interview and mentoring keep their features, but use the dashboard grid. */
+.dashboard-page-container .zeno-workspace-page .resource-hero{width:100%;max-width:none;margin:0;padding:0}
+.dashboard-page-container .zeno-interview-page .resource-content{width:100%;margin:0;grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr);gap:24px}
+.zeno-interview-page .resource-section-heading{margin-bottom:20px}
+.zeno-interview-page .resource-section-heading h2{font-size:24px}
+.zeno-interview-page .prep-list h3{font-size:14px}
+.zeno-interview-page .prep-list p,.zeno-interview-page .question-list summary,.zeno-interview-page .question-list details p{font-size:12px}
+.zeno-interview-page .interview-practice{top:calc(var(--zeno-header-height) + 24px);padding:28px;border-color:#dfe5dc;border-radius:16px;box-shadow:0 3px 12px #183c3208}
+.zeno-interview-page .practice-label{font-size:10px}
+.zeno-interview-page .interview-practice h2{font-size:24px}
+.zeno-interview-page .interview-practice>p{font-size:12px}
+.zeno-interview-page .practice-select select,.zeno-interview-page .practice-answer textarea{font-size:13px}
+.zeno-interview-page .practice-select select{height:44px}
+.zeno-interview-page .practice-actions{align-items:flex-start;justify-content:flex-start;flex-wrap:wrap}
+.zeno-interview-page .practice-actions .button{font-size:11px}
+.zeno-interview-page .practice-actions>span{width:100%;font-size:10px;text-align:left}
+.zeno-interview-page .practice-actions-single{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.zeno-interview-page .practice-actions-single .button{width:100%;justify-content:center;min-height:48px}
+.zeno-interview-page .practice-actions-single>span{width:auto;white-space:nowrap}
+.practice-ai-consent{display:flex;align-items:flex-start;gap:9px;margin-top:12px;color:#57534e;font-size:10px;line-height:1.5}
+.practice-ai-consent input{flex:none;margin:2px 0 0;accent-color:#1a4331}
+.practice-ai-consent a{color:#1a4331;text-decoration:underline;text-underline-offset:2px}
+.zeno-interview-page .practice-privacy{font-size:10px;line-height:1.5}
+.dashboard-page-container .zeno-interview-page .resource-next{margin:0;padding:28px;border:1px solid #dfe5dc;border-radius:16px;background:#eef3e9}
+
+.dashboard-page-container .zeno-mentor-page .mentor-layout{width:100%;margin:0;padding:0;grid-template-columns:280px minmax(0,1fr);gap:24px}
+.zeno-mentor-page .mentor-aside,.zeno-mentor-page .mentor-card{border-color:#dfe5dc;border-radius:16px;box-shadow:0 3px 12px #183c3208}
+.zeno-mentor-page .mentor-aside{gap:8px;padding:20px}
+.zeno-mentor-page .mentor-aside>.eyebrow{padding:4px 4px 10px;font-size:10px}
+.zeno-mentor-page .mentor-aside>button{gap:10px;padding:12px 8px;font-size:12px}
+.zeno-mentor-page .mentor-note{padding:16px 8px 4px}
+.zeno-mentor-page .mentor-note p{font-size:11px}
+.zeno-mentor-page .mentor-card{padding:28px}
+.zeno-mentor-page .mentor-card-top{padding-bottom:20px}
+.zeno-mentor-page .mentor-card-top b{font-size:14px}
+.zeno-mentor-page .mentor-card-top small{font-size:11px}
+.zeno-mentor-page .mentor-welcome{padding:20px;border-radius:12px}
+.zeno-mentor-page .mentor-welcome>b{font-size:14px}
+.zeno-mentor-page .mentor-welcome>p{font-size:12px}
+.zeno-mentor-page .mentor-prompts{gap:8px}
+.zeno-mentor-page .mentor-prompts button{padding:9px 12px;font-size:11px}
+.zeno-mentor-page .mentor-form .field textarea{min-height:130px;font-size:14px}
+.zeno-mentor-page .mentor-form-footer>small,.zeno-mentor-page .mentor-disclaimer{font-size:11px}
+.zeno-mentor-page .mentor-form-footer .button{min-height:44px;font-size:12px}
+.zeno-mentor-page .mentor-message>span{font-size:10px}
+.zeno-mentor-page .mentor-message>p{font-size:13px}
+.zeno-mentor-page .mentor-message>small{font-size:10px}
+
+/* Account is a workspace screen, not an authentication form. */
+.zeno-account-grid{display:grid;grid-template-columns:300px minmax(0,1fr);gap:24px;align-items:start}
+.zeno-account-summary,.zeno-account-settings{border:1px solid #dfe5dc;border-radius:16px;background:#fff;box-shadow:0 3px 12px #183c3208}
+.zeno-account-summary{padding:28px}
+.zeno-account-avatar{display:grid;width:64px;height:64px;place-items:center;border-radius:18px;background:#e9efe5;color:#1b5946;font:400 26px/1 Georgia,"Times New Roman",serif}
+.zeno-account-summary h2{margin:22px 0 0;color:#173c32;font-size:26px;line-height:1.15;overflow-wrap:anywhere}
+.zeno-account-summary>p{margin:8px 0 24px;color:#57534e;font-size:13px;overflow-wrap:anywhere}
+.zeno-account-summary>div{display:grid;gap:5px;padding-top:20px;border-top:1px solid #e7e5e4}
+.zeno-account-summary>div span{color:#78716c;font-size:10px;text-transform:uppercase;letter-spacing:.12em}
+.zeno-account-summary>div strong{color:#1b5946;font-size:13px;text-transform:capitalize}
+.zeno-account-settings.platform-card{min-width:0;margin:0;padding:28px}
+.zeno-account-settings.platform-card:hover{transform:none;border-color:#dfe5dc;box-shadow:0 3px 12px #183c3208}
+.zeno-account-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;padding-bottom:24px;border-bottom:1px solid #e7e5e4}
+.zeno-account-section-heading h2{margin:8px 0 0;color:#173c32;font-size:26px}
+.zeno-account-section-heading>span{max-width:270px;color:#78716c;font-size:11px;line-height:1.5;text-align:right}
+.zeno-account-name-form{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:12px;padding:24px 0}
+.zeno-account-name-form label{margin:0!important}
+.zeno-account-name-form .button{min-width:170px}
+.zeno-account-settings .account-actions{margin-top:0;padding-top:24px;border-top:1px solid #e7e5e4}
+.zeno-account-settings .account-delete{padding-top:24px}
+.zeno-account-local-mail{margin-top:24px!important;padding-top:24px;border-top:1px solid #e7e5e4}
+
+/* Courses use explicit CSS because this project does not compile utility classes. */
+.zeno-courses-page .platform-heading{max-width:none;margin:0}
+.course-loading-grid,.course-catalog-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.course-loading-card{width:100%;height:220px;border-radius:16px;background:#e4e4e7;animation:workspace-skeleton 1.2s ease-in-out infinite alternate}
+.course-empty-state{display:flex;min-height:360px;align-items:center;justify-content:center;flex-direction:column;padding:48px 24px;border:1px solid #dfe5dc;border-radius:16px;background:#fff;text-align:center;box-shadow:0 3px 12px #183c3208}
+.course-empty-icon{display:grid;width:64px;height:64px;place-items:center;border-radius:16px;background:#e9efe5;color:#1b5946}
+.course-empty-state h2{margin:24px 0 0;color:#173c32;font-size:28px}
+.course-empty-state p{max-width:520px;margin:12px auto 0;color:#57534e;font-size:14px;line-height:24px}
+.course-empty-state button{display:inline-flex;align-items:center;gap:8px;margin-top:24px;padding:0;border:0;background:transparent;color:#1b5946;font-size:13px;font-weight:500;cursor:pointer}
+.course-empty-state button:hover{text-decoration:underline;text-underline-offset:4px}
+.course-catalog-card{min-height:320px;margin:0;padding:28px}
+
+/* The resume builder fills the workspace and remains legible at desktop sizes. */
+.dashboard-page-container>.editor-page{width:100%;min-width:0}
+.dashboard-page-container .editor-topbar{display:none}
+.dashboard-page-container .builder-title,.dashboard-page-container .resume-tools,.dashboard-page-container .editor-main{width:100%;max-width:none}
+.dashboard-page-container .builder-title{margin:0 0 24px}
+.dashboard-page-container .resume-tools{margin:0 0 24px;padding:28px 30px}
+.dashboard-page-container .editor-main{grid-template-columns:190px minmax(380px,.9fr) minmax(500px,1.1fr);gap:22px;margin:0 0 42px}
+.dashboard-page-container .editor-sidebar{position:static;top:auto;padding:16px 13px}
+.dashboard-page-container .progress-copy{font-size:11px}
+.dashboard-page-container .progress-card>small{font-size:9px}
+.dashboard-page-container .editor-step{min-height:54px}
+.dashboard-page-container .editor-step small{font-size:8px}
+.dashboard-page-container .editor-step b{font-size:11px}
+.dashboard-page-container .privacy-card b,.dashboard-page-container .privacy-card p,.dashboard-page-container .sidebar-guide span,.dashboard-page-container .sidebar-guide b{font-size:9px}
+.dashboard-page-container .editor-form-panel{min-height:680px;padding:32px 30px 22px}
+.dashboard-page-container .form-heading h2{font-size:28px}
+.dashboard-page-container .form-heading h2 em{font-size:30px}
+.dashboard-page-container .form-heading>p{font-size:12px}
+.dashboard-page-container .field>span{font-size:11px}
+.dashboard-page-container .field input,.dashboard-page-container .field textarea,.dashboard-page-container .tag-input-shell{font-size:12px}
+.dashboard-page-container .field input{height:44px}
+.dashboard-page-container .form-tip p,.dashboard-page-container .field-help,.dashboard-page-container .field-foot{font-size:10px}
+.dashboard-page-container .form-footer .button{min-height:42px;font-size:11px}
+.dashboard-page-container .preview-toolbar{height:48px;font-size:9px}
+.dashboard-page-container .resume-paper-wrap{min-height:560px;max-height:min(720px,calc(100vh - 190px));padding:18px 10px}
+.dashboard-page-container .resume-paper{min-height:650px;zoom:.72}
+.dashboard-page-container .resume-paper.is-empty{position:relative}
+.resume-preview-empty{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:40px;background:#fff;color:#1a4331;text-align:center}
+.resume-preview-empty>span{display:grid;width:58px;height:58px;place-items:center;border-radius:16px;background:#eaf1ec;color:#1a4331}
+.resume-preview-empty h3{margin:18px 0 0;font:400 26px/1.15 Georgia,"Times New Roman",serif;letter-spacing:-.04em}
+.resume-preview-empty p{max-width:360px;margin:10px 0 0;color:#58645f;font-size:13px;line-height:1.6}
+.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .editor-main{grid-template-columns:200px minmax(430px,.9fr) minmax(590px,1.1fr)}
+.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .resume-paper{zoom:.8}
+@keyframes workspace-skeleton{from{opacity:.6}to{opacity:1}}
+
+@media(max-width:1450px){
+  .dashboard-page-container .editor-main,.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .editor-main{grid-template-columns:180px minmax(0,1fr)}
+  .dashboard-page-container .resume-stage{position:static;grid-column:1/-1}
+  .dashboard-page-container .resume-paper,.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .resume-paper{zoom:.8}
+}
+
+html[data-theme=dark] .zeno-workspace-page{color:#d8e6da}
+html[data-theme=dark] .zeno-workspace-header h1,html[data-theme=dark] .zeno-account-summary h2,html[data-theme=dark] .zeno-account-section-heading h2,html[data-theme=dark] .course-empty-state h2{color:#e1efe1}
+html[data-theme=dark] .zeno-workspace-header p:not(.zeno-eyebrow),html[data-theme=dark] .zeno-account-summary>p,html[data-theme=dark] .zeno-account-section-heading>span,html[data-theme=dark] .course-empty-state p{color:#adc2b1}
+html[data-theme=dark] .zeno-account-summary,html[data-theme=dark] .zeno-account-settings,html[data-theme=dark] .course-empty-state,html[data-theme=dark] .zeno-mentor-page .mentor-aside,html[data-theme=dark] .zeno-mentor-page .mentor-card,html[data-theme=dark] .zeno-interview-page .interview-practice{border-color:#294237;background:#13221c;color:#d8e6da}
+html[data-theme=dark] .zeno-account-summary>div,html[data-theme=dark] .zeno-account-section-heading,html[data-theme=dark] .zeno-account-settings .account-actions{border-color:#294237}
+html[data-theme=dark] .zeno-account-avatar,html[data-theme=dark] .course-empty-icon{background:#1d422d;color:#b5ddb7}
+html[data-theme=dark] .dashboard-page-container .zeno-interview-page .resource-next{border-color:#294237;background:#173326}
+html[data-theme=dark] .dashboard-page-container>.app-root,html[data-theme=dark] .dashboard-page-container .editor-page{background:transparent!important;color:#edf1ee}
+html[data-theme=dark] .dashboard-page-container .builder-title h1,html[data-theme=dark] .dashboard-page-container .form-heading h2,html[data-theme=dark] .dashboard-page-container .resume-tools h2{color:#edf4ef}
+html[data-theme=dark] .dashboard-page-container .builder-title p,html[data-theme=dark] .dashboard-page-container .form-heading>p{color:#afbeb2}
+html[data-theme=dark] .dashboard-page-container .builder-title .button,html[data-theme=dark] .dashboard-page-container .version-history>summary{border-color:#3b443e;background:#202622;color:#e4e9e5}
+html[data-theme=dark] .dashboard-page-container .builder-title .button:hover,html[data-theme=dark] .dashboard-page-container .version-history>summary:hover{background:#29302b}
+html[data-theme=dark] .dashboard-page-container .resume-tools{border-color:#39433d;background:#1c221e;color:#edf1ee}
+html[data-theme=dark] .dashboard-page-container .resume-tools-heading>span,html[data-theme=dark] .dashboard-page-container .resume-tools small{color:#afbeb2}
+html[data-theme=dark] .dashboard-page-container .resume-tools>.platform-actions>.button{border-color:#3b443e;background:#272e29;color:#edf1ee}
+html[data-theme=dark] .dashboard-page-container .resume-tools>.platform-actions>.button:hover{border-color:#536158;background:#303833}
+html[data-theme=dark] .dashboard-page-container .resume-tools input:not([type=checkbox]),html[data-theme=dark] .dashboard-page-container .resume-tools textarea,html[data-theme=dark] .dashboard-page-container .resume-tools select{border-color:#414b45;background:#151a17;color:#edf1ee}
+html[data-theme=dark] .dashboard-page-container .resume-tools input::placeholder,html[data-theme=dark] .dashboard-page-container .resume-tools textarea::placeholder{color:#839388}
+html[data-theme=dark] .dashboard-page-container .ai-assistant{border-color:#3b5145}
+html[data-theme=dark] .dashboard-page-container .ai-assistant>summary{color:#cce2d1}
+html[data-theme=dark] .dashboard-page-container .editor-sidebar,html[data-theme=dark] .dashboard-page-container .editor-form-panel,html[data-theme=dark] .dashboard-page-container .resume-stage{border-color:#39433d;background:#1c221e;color:#edf1ee;box-shadow:0 8px 24px #0000002e}
+html[data-theme=dark] .dashboard-page-container .progress-card,html[data-theme=dark] .dashboard-page-container .form-footer,html[data-theme=dark] .dashboard-page-container .repeat-card,html[data-theme=dark] .dashboard-page-container .preview-toolbar,html[data-theme=dark] .dashboard-page-container .preview-foot{border-color:#34483d}
+html[data-theme=dark] .dashboard-page-container .progress-copy,html[data-theme=dark] .dashboard-page-container .editor-step,html[data-theme=dark] .dashboard-page-container .field>span,html[data-theme=dark] .dashboard-page-container .check-field{color:#bdcbbf}
+html[data-theme=dark] .dashboard-page-container .progress-copy>strong{color:#93c49d}
+html[data-theme=dark] .dashboard-page-container .editor-step small{color:#b8c2ba}
+html[data-theme=dark] .dashboard-page-container .editor-step.is-active small{color:#d6ead9}
+html[data-theme=dark] .dashboard-page-container .sidebar-guide b{color:#b8d6be}
+html[data-theme=dark] .dashboard-page-container .field>span i{background:#293a30;color:#d4e1d7}
+html[data-theme=dark] .dashboard-page-container .progress-track{background:#2a3931}
+html[data-theme=dark] .dashboard-page-container .editor-step:hover{background:#272e29;color:#edf1ee}
+html[data-theme=dark] .dashboard-page-container .editor-step.is-active{background:#293a30;color:#d6ead9}
+html[data-theme=dark] .dashboard-page-container .step-icon-small,html[data-theme=dark] .dashboard-page-container .icon-button{border-color:#414b45;background:#151a17;color:#bec8c0}
+html[data-theme=dark] .dashboard-page-container .privacy-card,html[data-theme=dark] .dashboard-page-container .form-tip,html[data-theme=dark] .dashboard-page-container .example-box,html[data-theme=dark] .dashboard-page-container .empty-hint{border-color:#39433d;background:#242a26;color:#d0d8d2}
+html[data-theme=dark] .dashboard-page-container .privacy-card b,html[data-theme=dark] .dashboard-page-container .privacy-card p,html[data-theme=dark] .dashboard-page-container .form-tip p,html[data-theme=dark] .dashboard-page-container .example-box p,html[data-theme=dark] .dashboard-page-container .empty-hint p{color:#afbeb2}
+html[data-theme=dark] .dashboard-page-container .field input,html[data-theme=dark] .dashboard-page-container .field textarea,html[data-theme=dark] .dashboard-page-container .tag-input-shell{border-color:#414b45;background:#151a17;color:#edf1ee}
+html[data-theme=dark] .dashboard-page-container .field input::placeholder,html[data-theme=dark] .dashboard-page-container .field textarea::placeholder,html[data-theme=dark] .dashboard-page-container .tag-list input::placeholder{color:#839388}
+html[data-theme=dark] .dashboard-page-container .repeat-card{background:#202622}
+html[data-theme=dark] .dashboard-page-container .add-row-button{border-color:#4c5951;background:#202622;color:#cee0d1}
+html[data-theme=dark] .dashboard-page-container .add-row-button:hover{background:#29302b}
+html[data-theme=dark] .dashboard-page-container .resume-paper-wrap{background:#141916}
+html[data-theme=dark] .dashboard-page-container .preview-toolbar,html[data-theme=dark] .dashboard-page-container .preview-foot{background:#1c221e;color:#bdc7bf}
+html[data-theme=dark] .dashboard-page-container .preview-expand{color:#c1cec4}
+html[data-theme=dark] .dashboard-page-container .checklist-title span+span{color:#9dccaa}
+html[data-theme=dark] .dashboard-page-container .resume-paper{background:#fff;box-shadow:0 10px 30px #0006}
+html[data-theme=dark] .dashboard-page-container .editor-footer{border-color:#39433d;background:#181d1a;color:#afb8b1}
+html[data-theme=dark] .dashboard-page-container .editor-footer .brand{color:#e7eee8}
+html[data-theme=dark] .dashboard-page-container .eyebrow{border-color:#385244;background:#20382a;color:#b9d9bf}
+html[data-theme=dark] .dashboard-page-container .builder-title .eyebrow,html[data-theme=dark] .dashboard-page-container .resume-tools .eyebrow,html[data-theme=dark] .dashboard-page-container .form-heading .eyebrow{background:#20382a;color:#b9d9bf}
+html[data-theme=dark] .zeno-workspace-page input:not([type=checkbox]):not([type=radio]),html[data-theme=dark] .zeno-workspace-page textarea,html[data-theme=dark] .zeno-workspace-page select{border-color:#40574a;background:#111a16;color:#edf4ef}
+html[data-theme=dark] .zeno-workspace-page .button:not(.button-primary):not(.button-dark){border-color:#3b5145;background:#1a2721;color:#e1ebe3}
+
+@media(max-width:1023px){
+  .dashboard-page-container .zeno-interview-page .resource-content{grid-template-columns:1fr}
+  .zeno-interview-page .interview-practice{position:static}
+  .dashboard-page-container .zeno-mentor-page .mentor-layout{grid-template-columns:1fr}
+  .zeno-mentor-page .mentor-aside{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .zeno-mentor-page .mentor-aside>.eyebrow,.zeno-mentor-page .mentor-note{grid-column:1/-1}
+  .zeno-account-grid{grid-template-columns:1fr}
+  .zeno-account-summary{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:0 20px}
+  .zeno-account-summary h2{margin:0}
+  .zeno-account-summary>p{margin:6px 0 0}
+  .zeno-account-summary>div{grid-column:1/-1;margin-top:20px}
+  .course-loading-grid,.course-catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .dashboard-page-container .editor-main,.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .editor-main{grid-template-columns:180px minmax(0,1fr)}
+  .dashboard-page-container .resume-stage{position:static;grid-column:1/-1}
+  .dashboard-page-container .resume-paper,.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .resume-paper{zoom:.8}
+}
+@media(max-width:639px){
+  .zeno-workspace-page{gap:24px}
+  .zeno-workspace-header{align-items:flex-start;flex-direction:column}
+  .zeno-workspace-header h1{font-size:32px}
+  .zeno-workspace-header>.button{width:100%}
+  .zeno-mentor-page .mentor-aside{grid-template-columns:1fr}
+  .zeno-mentor-page .mentor-aside>.eyebrow,.zeno-mentor-page .mentor-note{grid-column:auto}
+  .zeno-mentor-page .mentor-card,.zeno-interview-page .interview-practice,.zeno-account-summary,.zeno-account-settings.platform-card{padding:20px}
+  .zeno-account-name-form{grid-template-columns:1fr}
+  .zeno-account-name-form .button{width:100%}
+  .zeno-account-section-heading{align-items:flex-start;flex-direction:column}
+  .zeno-account-section-heading>span{text-align:left}
+  .course-loading-grid,.course-catalog-grid{grid-template-columns:1fr}
+  .course-empty-state{min-height:320px;padding:36px 20px}
+  .dashboard-page-container .zeno-interview-page .resource-next{align-items:flex-start;flex-direction:column;padding:24px}
+  .zeno-interview-page .practice-actions-single{grid-template-columns:1fr}
+  .zeno-interview-page .practice-actions-single>span{white-space:normal}
+  .dashboard-page-container .editor-main,.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .editor-main{display:flex}
+}
+@media(max-width:760px){
+  .dashboard-page-container .resume-paper,.dashboard-layout.is-sidebar-collapsed .dashboard-page-container .resume-paper{min-height:475px;zoom:.48}
+  .dashboard-page-container .resume-paper-wrap{min-height:340px;max-height:520px}
+}
+@media(prefers-reduced-motion:reduce){.course-loading-card{animation:none}}

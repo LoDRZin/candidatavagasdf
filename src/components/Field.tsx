@@ -1,0 +1,3 @@
+export function Field({ label, value, onChange, placeholder, type = 'text', required = false, disabled = false, helper, as = 'input' }: { label: string; value: string; onChange: (value: string) => void; placeholder?: string; type?: string; required?: boolean; disabled?: boolean; helper?: string; as?: 'input' | 'textarea' }) {
+  return <label className="field"><span>{label}{required && <i>Recomendado</i>}</span>{as === 'textarea' ? <textarea rows={4} value={value} onChange={event => onChange(event.target.value)} placeholder={placeholder} /> : <input type={type} value={value} onChange={event => onChange(event.target.value)} placeholder={placeholder} disabled={disabled} />}{helper && <small className="field-help">{helper}</small>}</label>;
+}

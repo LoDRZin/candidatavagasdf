@@ -1,0 +1,26 @@
+# Copie este arquivo para .dev.vars antes de rodar `npm run dev`.
+# Nunca publique chaves reais no Git.
+GEMINI_API_KEY=
+GEMINI_MODELS=gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,gemini-3.5-flash-lite,gemma-4-31b-it,gemma-4-26b-a4b-it
+GEMINI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/models
+OPENROUTER_API_KEY=
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1/chat/completions
+OPENROUTER_MODELS=minimax/minimax-m3:free,nvidia/nemotron-3-super-120b-a12b:free,dots-studio/dots-3-note-preview:free,minimax/minimax-m2.7:free,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,cohere/north-mini-code:free,nvidia/nemotron-3.5-lightning:free,nvidia/nemotron-3-ultra-550b-a55b:free,z-ai/glm-5.2:free,liquid/lfm-2.5-2.6b:free,google/gemma-4-31b-it:free
+OPENROUTER_SITE_URL=http://127.0.0.1:5173
+OPENROUTER_APP_NAME=conectavagasdf
+ADMIN_TOKEN=
+# Obrigatorio para abrir ferramentas e paineis; use 32+ caracteres aleatorios.
+
+# Contas: Resend (dominio de envio verificado) e OAuth Google.
+EMAIL_API_KEY=
+EMAIL_FROM=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+APP_ORIGIN=
+# Lembretes por e-mail são sempre opt-in e permanecem desligados até o envio ser homologado.
+REMINDER_EMAILS_ENABLED=false
+# Somente localhost/127.0.0.1: permite consultar links de e-mail no ambiente local.
+LOCAL_MAIL_PREVIEW=false
+# Ative apos configurar/testar um modelo com saida estruturada.
+AI_RESUME_STRUCTURE_ENABLED=false
+GEMINI_RESUME_MODEL=

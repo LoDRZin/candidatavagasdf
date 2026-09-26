@@ -1,0 +1,474 @@
+[
+  {
+    "id": "career-course-job-safety",
+    "title": "Segurança na busca de emprego",
+    "slug": "seguranca-na-busca-de-emprego",
+    "description": "Aprenda a conferir anúncios, proteger seus dados e reagir com calma a contatos suspeitos durante a busca por trabalho.",
+    "passScore": 70,
+    "modules": [{
+      "title": "Procure oportunidades com mais segurança",
+      "lessons": [
+        {
+          "title": "Confira a origem do anúncio",
+          "blocks": [
+            {
+              "title": "Observe antes de responder",
+              "text": "Um anúncio pode chegar por site, rede social, grupo ou mensagem direta. Antes de enviar qualquer informação, procure o nome da organização, a função, as tarefas e um canal oficial de contato. Um logotipo ou nome conhecido, sozinho, não prova quem publicou.\n\nCompare o endereço do site e o e-mail com os canais públicos da organização. Diferenças pequenas na escrita, páginas recém-criadas e contatos que evitam explicar a vaga merecem uma verificação adicional."
+            },
+            {
+              "title": "Procure coerência na oportunidade",
+              "text": "Leia se as tarefas, os requisitos, o local e as etapas do processo combinam entre si. Promessas de contratação garantida, remuneração muito acima do contexto sem explicação ou urgência extrema podem ser usadas para impedir que você confira os fatos.\n\nUma vaga legítima também pode ter uma descrição ruim, por isso um sinal isolado não fecha o diagnóstico. Reúna os sinais e peça informações pelo canal oficial antes de continuar."
+            },
+            {
+              "title": "Confirme por um caminho independente",
+              "text": "Não use apenas o telefone ou link enviado na própria mensagem. Procure o site oficial por conta própria e veja se a oportunidade ou o contato aparecem ali. Quando houver dúvida, use um canal público da organização para confirmar o processo.\n\nPrática: diante de um anúncio fictício, anote três elementos que você verificaria: endereço completo da página, existência da vaga no canal oficial e coerência entre tarefas e condições."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Você recebeu uma vaga por mensagem com um link parecido com o site de uma empresa conhecida. Qual é o primeiro passo mais seguro?",
+              "explanation": "Buscar o canal oficial de forma independente reduz o risco de confiar em um endereço imitado. O logotipo e a urgência da mensagem não confirmam a origem.",
+              "options": [
+                { "label": "Abrir o link imediatamente porque o logotipo parece correto", "correct": false },
+                { "label": "Procurar o site oficial por conta própria e confirmar a oportunidade", "correct": true },
+                { "label": "Encaminhar a mensagem para todos os contatos antes de verificar", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Liste três verificações que você faria antes de responder a um anúncio fictício. Não inclua links ou contatos reais.",
+              "explanation": "Uma boa lista considera a origem, a coerência da descrição e um canal independente de confirmação. Ela deve poder ser aplicada antes de compartilhar dados.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Proteja seus dados e seu dinheiro",
+          "blocks": [
+            {
+              "title": "Compartilhe somente o necessário",
+              "text": "Em uma candidatura inicial, normalmente bastam informações profissionais e um meio de contato. Senhas, códigos de confirmação, dados bancários e números completos de documentos não demonstram sua capacidade para uma vaga.\n\nAntes de preencher um formulário, confira quem receberá os dados, para qual finalidade e se aquele momento do processo realmente exige a informação. Quando a solicitação parecer excessiva, interrompa e confirme pelo canal oficial."
+            },
+            {
+              "title": "Desconfie de pagamentos antecipados",
+              "text": "Cobranças para liberar uma entrevista, garantir contratação ou receber salário são sinais importantes de risco. Também tenha cuidado com pedidos para comprar materiais de um fornecedor indicado, movimentar dinheiro de terceiros ou emprestar sua conta.\n\nCursos opcionais podem existir fora de um processo seletivo, mas a decisão de estudar deve ser separada da promessa de vaga. Não faça pagamento sob pressão e converse com alguém de confiança quando a situação estiver confusa."
+            },
+            {
+              "title": "Cuide de arquivos e códigos",
+              "text": "Revise o currículo antes de enviar e retire números de documentos, endereço completo e outras informações que não sejam necessárias. Não instale programas desconhecidos nem permita acesso remoto ao aparelho para participar de uma seleção.\n\nCódigos enviados por SMS ou aplicativo servem para confirmar seu acesso e não devem ser repassados. Prática: revise uma lista fictícia e separe dados profissionais adequados de senhas, códigos e informações financeiras."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Quais solicitações devem fazer você interromper o contato e verificar a situação? Selecione todas as adequadas.",
+              "explanation": "Pagamento para garantir vaga, senha e código de acesso não são necessários para avaliar qualificações. Informar uma experiência real no currículo faz parte da candidatura.",
+              "options": [
+                { "label": "Pagar uma taxa para garantir a contratação", "correct": true },
+                { "label": "Enviar um código de confirmação recebido no celular", "correct": true },
+                { "label": "Descrever uma experiência real relacionada à vaga", "correct": false },
+                { "label": "Informar a senha do e-mail para validar o cadastro", "correct": true }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Escreva quais informações profissionais você aceitaria compartilhar no início de uma candidatura fictícia e quais recusaria.",
+              "explanation": "A resposta deve separar informações profissionais necessárias de senhas, códigos, dados financeiros e documentos completos. Em caso de dúvida, confirme antes de enviar.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Interrompa e registre uma situação suspeita",
+          "blocks": [
+            {
+              "title": "Pare antes de decidir sob pressão",
+              "text": "Mensagens suspeitas costumam criar medo de perder a oportunidade. Você pode interromper a conversa, fechar a página e verificar com calma. Não é necessário discutir com o contato nem explicar todos os motivos da sua decisão.\n\nSe já informou algo, evite enviar novos dados para tentar corrigir a situação. Identifique o que foi compartilhado e procure os canais adequados para proteger a conta ou informação envolvida."
+            },
+            {
+              "title": "Guarde informações sem se expor mais",
+              "text": "Registre a data, o canal, o nome usado no anúncio e capturas das mensagens relevantes, sem redistribuir dados pessoais de outras pessoas. Esses elementos ajudam a relatar o caso para a plataforma, organização envolvida ou serviço apropriado.\n\nNão clique novamente em links suspeitos apenas para produzir uma captura. Use o que já está disponível e preserve sua segurança. Bloquear um contato pode ser adequado depois de registrar o necessário."
+            },
+            {
+              "title": "Procure ajuda adequada",
+              "text": "Se uma conta ou senha foi exposta, altere a credencial pelo site oficial e encerre sessões desconhecidas. Se houve movimentação financeira, procure imediatamente a instituição pelos canais oficiais. Para ameaças ou possíveis crimes, considere os serviços públicos competentes da sua região.\n\nEste curso oferece prevenção geral, não investigação nem orientação jurídica. Prática: escreva um plano fictício com três passos — interromper, registrar e buscar o canal adequado."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Você percebeu sinais de fraude depois de enviar uma senha. Qual atitude é mais adequada?",
+              "explanation": "Interromper o contato e alterar a senha pelo serviço oficial reduz novos riscos. Continuar a conversa ou enviar outro código pode ampliar a exposição.",
+              "options": [
+                { "label": "Continuar conversando até a pessoa prometer apagar a senha", "correct": false },
+                { "label": "Interromper o contato e alterar a senha pelo canal oficial", "correct": true },
+                { "label": "Enviar também o código recebido para confirmar sua identidade", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Monte um plano fictício em três passos para reagir a um contato suspeito, sem citar pessoas, empresas ou dados reais.",
+              "explanation": "O plano deve começar pela interrupção do contato, preservar apenas evidências seguras e indicar um canal oficial ou serviço adequado para pedir ajuda.",
+              "options": []
+            }
+          ]
+        }
+      ]
+    }]
+  },
+  {
+    "id": "career-course-digital-skills",
+    "title": "Competências digitais essenciais",
+    "slug": "competencias-digitais-essenciais",
+    "description": "Organize arquivos, participe de reuniões online e pratique operações básicas em documentos e planilhas usadas no trabalho.",
+    "passScore": 70,
+    "modules": [{
+      "title": "Ferramentas digitais do dia a dia",
+      "lessons": [
+        {
+          "title": "Organize e envie arquivos",
+          "blocks": [
+            {
+              "title": "Crie nomes que ajudam a encontrar",
+              "text": "Um nome de arquivo deve explicar o conteúdo sem precisar abri-lo. Prefira uma estrutura como tipo, assunto e data: `curriculo-nome-2026.pdf` ou `lista-materiais-2026-09.xlsx`. Evite nomes como `final-final-agora` e caracteres que podem causar problemas em outros sistemas.\n\nCrie pastas por assunto e mantenha uma versão principal. Se precisar preservar uma etapa anterior, inclua a data ou um número de versão claro."
+            },
+            {
+              "title": "Escolha o formato certo",
+              "text": "Use PDF quando quiser preservar a aparência e não esperar edição. Use um formato editável quando a outra pessoa precisar continuar o trabalho. Antes de enviar, abra o arquivo final e confira páginas, conteúdo, nome e tamanho.\n\nNão mude apenas a extensão do nome para converter um arquivo. Use a opção de exportar ou salvar no formato desejado e mantenha o original quando ele puder ser útil."
+            },
+            {
+              "title": "Envie com contexto",
+              "text": "Na mensagem, informe o que está anexado, a qual tarefa se refere e se existe algum prazo ou ação esperada. Confira destinatário e anexo antes de enviar. Para arquivos compartilhados por link, revise quem possui acesso.\n\nPrática: crie um nome fictício para uma lista de materiais e escreva uma mensagem curta que explique o anexo e o próximo passo, sem usar contatos reais."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Você precisa enviar um documento pronto para leitura, sem edição. Qual opção ajuda mais?",
+              "explanation": "Um nome descritivo e a exportação para PDF ajudam a identificar o arquivo e preservar sua aparência. Ainda é necessário abrir e conferir o resultado.",
+              "options": [
+                { "label": "Renomear qualquer arquivo para final.pdf sem converter", "correct": false },
+                { "label": "Exportar para PDF, usar nome descritivo e conferir o arquivo", "correct": true },
+                { "label": "Enviar o primeiro arquivo da pasta sem abrir", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Crie um nome claro para um arquivo fictício e uma mensagem curta de envio com contexto e próximo passo.",
+              "explanation": "O nome deve indicar o conteúdo e a mensagem deve permitir que o destinatário entenda por que recebeu o arquivo e o que precisa fazer.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Participe de reuniões online",
+          "blocks": [
+            {
+              "title": "Prepare o acesso",
+              "text": "Confira horário, fuso, aplicativo e link antes da reunião. Quando possível, teste câmera, microfone e saída de áudio. Tenha uma alternativa, como telefone ou mensagem para avisar caso a conexão falhe.\n\nEntre alguns minutos antes sem divulgar o link em canais públicos. Links de reunião podem dar acesso a conversas e informações da equipe, por isso devem ser tratados como acesso de trabalho."
+            },
+            {
+              "title": "Ajude a conversa a funcionar",
+              "text": "Mantenha o microfone fechado quando houver ruído e abra para falar. Use o chat ou a função de levantar a mão conforme o combinado do grupo. Diga seu nome quando necessário e avise de forma breve se perder parte da explicação.\n\nEscolha um ambiente possível, sem exigir perfeição. Fones podem ajudar, mas não são obrigatórios. O importante é comunicar limitações e reduzir interrupções sob seu controle."
+            },
+            {
+              "title": "Registre o próximo passo",
+              "text": "Ao final, confirme tarefas, responsáveis e prazos. Se a reunião for gravada, todos devem conhecer a finalidade e as regras aplicáveis antes do início; não grave por conta própria.\n\nPrática: prepare um checklist fictício com acesso, equipamento, ambiente e anotação final. Inclua como você avisaria a equipe se sua conexão caísse."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Quais atitudes ajudam em uma reunião online? Selecione todas as adequadas.",
+              "explanation": "Testar o acesso, controlar o microfone e confirmar os próximos passos tornam a participação mais clara. Publicar o link pode expor a reunião.",
+              "options": [
+                { "label": "Testar áudio e link antes do horário", "correct": true },
+                { "label": "Fechar o microfone quando houver ruído", "correct": true },
+                { "label": "Publicar o link da reunião em um espaço aberto", "correct": false },
+                { "label": "Confirmar tarefas e prazos ao final", "correct": true }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Monte um checklist curto para uma reunião online fictícia, incluindo o que fazer se a conexão falhar.",
+              "explanation": "O checklist pode incluir acesso, áudio, ambiente, materiais e um canal para avisar sobre problemas, além do registro dos próximos passos.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Comece com documentos e planilhas",
+          "blocks": [
+            {
+              "title": "Estruture antes de formatar",
+              "text": "Em um documento, comece pelo objetivo e organize títulos, parágrafos e listas. Use formatação para mostrar a hierarquia, não para decorar cada trecho. Em uma planilha, cada coluna deve representar um tipo de informação e cada linha, um item.\n\nEscreva títulos claros e mantenha datas e números em formatos consistentes. Uma estrutura simples facilita leitura, filtro e revisão por outras pessoas."
+            },
+            {
+              "title": "Faça operações básicas com cuidado",
+              "text": "Em planilhas, pratique selecionar células, preencher linhas, ordenar, filtrar e usar uma soma simples. Antes de ordenar, confira se toda a tabela foi selecionada para não separar nomes de seus valores.\n\nFórmulas começam com um sinal próprio da ferramenta e usam referências de células. Confira alguns resultados manualmente e não apresente como certo um cálculo que você ainda não entendeu."
+            },
+            {
+              "title": "Revise e compartilhe",
+              "text": "Use comentários ou sugestões quando precisar revisar sem substituir silenciosamente o trabalho de outra pessoa. Antes de compartilhar, confira permissões: visualizar, comentar ou editar. Remova dados que não sejam necessários para a tarefa.\n\nPrática: imagine uma planilha com item, responsável, prazo e situação. Explique como você organizaria as colunas e qual permissão daria a alguém que deve apenas consultar."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Uma pessoa precisa consultar uma planilha, mas não deve alterar os dados. Qual acesso é mais adequado?",
+              "explanation": "A permissão de visualização atende à necessidade sem liberar edição. Permissões devem seguir a tarefa que a pessoa realmente realizará.",
+              "options": [
+                { "label": "Dar acesso de edição completa por padrão", "correct": false },
+                { "label": "Dar acesso de visualização e conferir o conteúdo compartilhado", "correct": true },
+                { "label": "Publicar a planilha para qualquer pessoa na internet", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Descreva as colunas de uma planilha fictícia para acompanhar tarefas e qual permissão usaria para uma pessoa que só consulta.",
+              "explanation": "Uma estrutura adequada separa item, responsável, prazo e situação. Para consulta sem alteração, a permissão de visualização costuma ser suficiente.",
+              "options": []
+            }
+          ]
+        }
+      ]
+    }]
+  },
+  {
+    "id": "career-course-teamwork",
+    "title": "Trabalho em equipe na prática",
+    "slug": "trabalho-em-equipe-na-pratica",
+    "description": "Entenda responsabilidades, mantenha a equipe informada e pratique conversas respeitosas quando surgirem diferenças.",
+    "passScore": 70,
+    "modules": [{
+      "title": "Colaboração no dia a dia",
+      "lessons": [
+        {
+          "title": "Entenda papéis e combinados",
+          "blocks": [
+            {
+              "title": "Enxergue o resultado compartilhado",
+              "text": "Uma equipe reúne contribuições diferentes para entregar um resultado. Antes de começar, entenda o objetivo, as partes da tarefa, quem decide, quem executa e como o grupo saberá que terminou.\n\nColaborar não significa que todos façam tudo. Papéis claros evitam atividades duplicadas e tarefas esquecidas, além de facilitar o pedido de ajuda quando surgir uma dependência."
+            },
+            {
+              "title": "Confirme sua responsabilidade",
+              "text": "Resuma o que ficou com você, o formato da entrega e o prazo. Pergunte quais informações ou materiais precisam chegar antes. Se o combinado mudar, atualize seu registro em vez de confiar apenas na memória.\n\nNão assuma uma tarefa de outra pessoa sem alinhar. A intenção de ajudar pode criar confusão se ninguém souber quem está responsável pelo resultado final."
+            },
+            {
+              "title": "Combine como acompanhar",
+              "text": "Defina onde a equipe registrará andamento e decisões: quadro de tarefas, planilha, sistema ou mensagem no canal combinado. A atualização deve ser curta e útil, sem transformar cada pequeno passo em uma reunião.\n\nPrática: para uma atividade fictícia, escreva objetivo, sua responsabilidade, uma dependência e o lugar onde o andamento seria registrado."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Duas pessoas começaram a mesma tarefa porque o responsável não foi definido. O que ajuda a evitar a repetição?",
+              "explanation": "Definir responsável, resultado e local de acompanhamento torna o trabalho visível. Presumir que todos entenderam pode manter a confusão.",
+              "options": [
+                { "label": "Esperar que cada pessoa descubra sozinha o que fazer", "correct": false },
+                { "label": "Confirmar responsáveis, entrega e local de acompanhamento", "correct": true },
+                { "label": "Parar de registrar tarefas para economizar tempo", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Defina objetivo, responsabilidade, dependência e forma de acompanhamento para uma tarefa fictícia em equipe.",
+              "explanation": "A resposta deve mostrar quem faz o quê, qual resultado é esperado e onde o andamento será visível para o grupo.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Atualize a equipe sobre seu trabalho",
+          "blocks": [
+            {
+              "title": "Informe o que mudou",
+              "text": "Uma atualização útil responde: o que foi concluído, o que vem a seguir e o que está impedindo o avanço. Use fatos observáveis e indique quando precisa de uma resposta. Evite mensagens vagas como ‘estou vendo’ quando o grupo depende do resultado.\n\nA frequência depende da tarefa. Combine momentos de atualização para dar visibilidade sem interromper o trabalho a todo instante."
+            },
+            {
+              "title": "Avise obstáculos cedo",
+              "text": "Se perceber que um prazo ou resultado está em risco, avise quando tiver informações suficientes para explicar a situação. Mostre o que já tentou, o que falta e qual apoio ou decisão pode destravar o trabalho.\n\nEsconder o problema até o prazo final reduz as opções da equipe. Avisar cedo não é fracasso; é uma forma de permitir que o grupo reorganize prioridades."
+            },
+            {
+              "title": "Faça uma passagem clara",
+              "text": "Quando outra pessoa continuar sua tarefa, informe estado atual, arquivos, decisões, pendências e prazo. Não dependa apenas de uma conversa que não ficará registrada. Confira se a pessoa recebeu acesso ao material necessário.\n\nPrática: escreva uma atualização fictícia com concluído, próximo passo, obstáculo e pedido específico. Depois, retire qualquer detalhe que não ajude a equipe a agir."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "prompt": "O que deve aparecer em uma atualização útil para a equipe? Selecione todas as adequadas.",
+              "explanation": "Andamento, próximo passo e obstáculo com pedido claro ajudam o grupo a decidir. Esconder o risco ou usar uma resposta vaga não oferece informação para agir.",
+              "options": [
+                { "label": "O que já foi concluído", "correct": true },
+                { "label": "O próximo passo e o prazo relevante", "correct": true },
+                { "label": "Um obstáculo e o apoio necessário", "correct": true },
+                { "label": "Apenas a frase ‘estou vendo’ quando há um bloqueio", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Escreva uma atualização fictícia com andamento, próximo passo, obstáculo e um pedido específico à equipe.",
+              "explanation": "A mensagem deve permitir que o grupo entenda a situação e responda ao pedido sem precisar adivinhar o que está faltando.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Resolva diferenças com respeito",
+          "blocks": [
+            {
+              "title": "Separe fato de interpretação",
+              "text": "Descreva primeiro o que aconteceu de forma observável. ‘A lista chegou depois do horário combinado’ é mais verificável do que ‘ninguém respeita meu trabalho’. Depois explique o impacto na tarefa e escute a perspectiva da outra pessoa.\n\nUma diferença pode vir de informação incompleta, prioridades distintas ou um combinado pouco claro. Verifique antes de atribuir intenção."
+            },
+            {
+              "title": "Procure um próximo acordo",
+              "text": "Concentre a conversa no que precisa mudar: formato, prazo, responsável ou canal. Proponha uma ação concreta e confirme como o grupo acompanhará. Reconhecer sua parte no problema pode ajudar sem exigir que você aceite tratamento desrespeitoso.\n\nQuando a conversa ficar agressiva, discriminatória ou insegura, interrompa e procure o canal de apoio adequado da organização."
+            },
+            {
+              "title": "Registre a decisão necessária",
+              "text": "Depois da conversa, registre apenas o combinado profissional relevante, evitando comentários pessoais. Se o problema se repetir, use fatos, datas e impactos para pedir apoio, respeitando as políticas da organização.\n\nPrática: transforme uma acusação genérica em uma mensagem fictícia com fato, impacto e proposta de próximo passo."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Uma entrega chegou depois do horário combinado e afetou a próxima tarefa. Como iniciar a conversa?",
+              "explanation": "Descrever o fato e o impacto abre espaço para entender o que ocorreu e combinar uma mudança. Acusações sobre intenção aumentam o conflito sem esclarecer a tarefa.",
+              "options": [
+                { "label": "Dizer que a pessoa nunca respeita ninguém", "correct": false },
+                { "label": "Descrever o atraso, explicar o impacto e perguntar o que ocorreu", "correct": true },
+                { "label": "Espalhar a reclamação para colegas que não participam da tarefa", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Reescreva uma reclamação fictícia usando fato, impacto e uma proposta de próximo passo, sem nomes reais.",
+              "explanation": "Use algo observável, explique como a tarefa foi afetada e proponha um acordo que possa ser acompanhado pelo grupo.",
+              "options": []
+            }
+          ]
+        }
+      ]
+    }]
+  },
+  {
+    "id": "career-course-first-days",
+    "title": "Seus primeiros dias no trabalho",
+    "slug": "primeiros-dias-no-trabalho",
+    "description": "Conheça a nova rotina, faça perguntas úteis e organize um plano realista para aprender durante os primeiros 30 dias.",
+    "passScore": 70,
+    "modules": [{
+      "title": "Comece uma nova rotina com clareza",
+      "lessons": [
+        {
+          "title": "Observe a rotina e as regras",
+          "blocks": [
+            {
+              "title": "Conheça o funcionamento básico",
+              "text": "Nos primeiros dias, identifique horários, local ou acesso, pessoas de referência, pausas, registro de presença e canais de comunicação. Pergunte onde encontrar orientações oficiais em vez de depender apenas de comentários informais.\n\nAnote o necessário sem registrar senhas ou informações confidenciais. Cada organização possui práticas próprias, e você não precisa memorizar tudo de uma vez."
+            },
+            {
+              "title": "Entenda prioridades e qualidade",
+              "text": "Para cada atividade inicial, confirme o resultado esperado, a prioridade, o prazo e como o trabalho será conferido. Observe exemplos aprovados quando estiverem disponíveis e pergunte quais erros são mais importantes evitar.\n\nRapidez não é o único sinal de bom trabalho. No começo, compreender o processo e realizar uma entrega correta pode ser mais valioso do que tentar parecer independente a qualquer custo."
+            },
+            {
+              "title": "Respeite segurança e confidencialidade",
+              "text": "Siga orientações sobre equipamentos, dados de clientes, acesso a sistemas e segurança física. Não compartilhe credenciais nem copie informações de trabalho para contas pessoais sem autorização.\n\nSe uma instrução parecer insegura ou contrariar uma regra conhecida, pare e confirme com a pessoa ou canal responsável. Prática: faça uma lista fictícia com cinco informações que você buscaria no primeiro dia."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Quais informações ajudam no primeiro dia? Selecione todas as adequadas.",
+              "explanation": "Pessoas de referência, prioridades e regras de acesso ajudam a trabalhar com segurança. Compartilhar senha não é uma forma adequada de integração.",
+              "options": [
+                { "label": "Quem pode orientar quando surgir uma dúvida", "correct": true },
+                { "label": "Quais tarefas são prioridade e como serão conferidas", "correct": true },
+                { "label": "Qual senha de outra pessoa posso usar", "correct": false },
+                { "label": "Onde ficam as regras e canais oficiais", "correct": true }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Liste cinco informações que você gostaria de confirmar no primeiro dia de uma situação fictícia de trabalho.",
+              "explanation": "Considere rotina, prioridade, pessoas de referência, segurança e canais oficiais. Não inclua nomes, endereços ou credenciais reais.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Faça perguntas que ajudam a aprender",
+          "blocks": [
+            {
+              "title": "Mostre o que você já entendeu",
+              "text": "Antes de perguntar, organize a dúvida: qual é a tarefa, o que você entendeu e qual ponto impede o próximo passo. Uma pergunta específica facilita a resposta e mostra que você acompanhou a orientação.\n\nExemplo: ‘Entendi que devo separar os pedidos de hoje por prioridade. Como identifico os casos urgentes?’ é mais útil do que apenas dizer ‘não entendi nada’."
+            },
+            {
+              "title": "Escolha momento e canal",
+              "text": "Dúvidas que envolvem risco, cliente esperando ou bloqueio de trabalho devem ser comunicadas logo. Outras podem ser reunidas para o momento combinado de acompanhamento. Use o canal definido pela equipe e respeite situações em que a pessoa não pode responder imediatamente.\n\nAnote a resposta com suas próprias palavras e confirme se o entendimento está correto. Isso reduz a necessidade de repetir a mesma pergunta."
+            },
+            {
+              "title": "Aprenda sem esconder limites",
+              "text": "Dizer que ainda não sabe usar uma ferramenta é mais seguro do que fingir domínio e causar um problema. Relacione o que já conhece, peça uma demonstração ou material e combine como praticará.\n\nPrática: transforme uma dúvida vaga em uma pergunta que contenha contexto, entendimento atual e o ponto exato a esclarecer."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Você entendeu a tarefa, mas não sabe identificar quais pedidos são urgentes. Qual pergunta é mais útil?",
+              "explanation": "Informar o que você já entendeu e localizar a dúvida permite uma resposta específica. Fingir que sabe pode gerar erros evitáveis.",
+              "options": [
+                { "label": "Não perguntar e escolher qualquer pedido como urgente", "correct": false },
+                { "label": "Entendi a separação por prioridade; qual critério identifica um pedido urgente?", "correct": true },
+                { "label": "Dizer apenas que tudo está confuso, sem citar a tarefa", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Transforme uma dúvida vaga sobre uma tarefa fictícia em uma pergunta com contexto, entendimento atual e ponto a esclarecer.",
+              "explanation": "A pergunta deve mostrar o que já está claro e permitir que a outra pessoa responda ao ponto que bloqueia o próximo passo.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "title": "Organize seus primeiros 30 dias",
+          "blocks": [
+            {
+              "title": "Defina aprendizados possíveis",
+              "text": "Escolha poucos objetivos ligados à função: compreender uma rotina, usar uma ferramenta básica ou realizar uma tarefa com acompanhamento. Um objetivo deve depender principalmente das suas ações e ter uma forma simples de verificar avanço.\n\nEvite a meta de ‘não cometer nenhum erro’. Prefira algo como ‘seguir o checklist e pedir conferência nas três primeiras entregas’."
+            },
+            {
+              "title": "Registre progresso e dúvidas",
+              "text": "Ao fim de cada semana, anote o que conseguiu realizar, quais orientações recebeu e o que ainda precisa praticar. Use exemplos de trabalho sem copiar dados confidenciais. Leve dúvidas prioritárias para o acompanhamento combinado.\n\nPequenos registros ajudam a perceber evolução e preparar conversas de feedback. Eles não precisam ser longos nem conter julgamento sobre colegas."
+            },
+            {
+              "title": "Revise com a pessoa responsável",
+              "text": "Quando houver espaço, confirme se suas prioridades estão alinhadas e peça um exemplo concreto de algo que pode melhorar. Resuma a ação que fará e combine quando verificar novamente.\n\nO plano precisa se adaptar à rotina real e às orientações da organização. Prática: monte um plano fictício de 30 dias com dois aprendizados, uma forma de praticar e um momento de revisão."
+            }
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "prompt": "Qual objetivo é mais útil para os primeiros 30 dias?",
+              "explanation": "Um objetivo específico e verificável orienta a prática. Exigir perfeição imediata não mostra qual ação realizar nem considera o período de aprendizagem.",
+              "options": [
+                { "label": "Nunca cometer nenhum erro desde o primeiro dia", "correct": false },
+                { "label": "Usar o checklist e pedir revisão nas primeiras entregas", "correct": true },
+                { "label": "Aprender todas as funções da organização em uma semana", "correct": false }
+              ]
+            },
+            {
+              "type": "reflection",
+              "prompt": "Crie um plano fictício de 30 dias com dois aprendizados, uma prática e um momento de revisão.",
+              "explanation": "Prefira metas pequenas, relacionadas à função e verificáveis. Inclua como você praticará e quando pedirá orientação sobre o avanço.",
+              "options": []
+            }
+          ]
+        }
+      ]
+    }]
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "conectavagasdf",
+  "main": "./worker/index.ts",
+  "compatibility_date": "2026-09-18",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+    "logs": {
+      "enabled": true,
+      "invocation_logs": false
+    }
+  },
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "passo-content",
+      "database_id": "0dc4f3c3-e37e-4c66-9954-290c97d5b7c3",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "AI_LIMITER",
+      "namespace_id": "741296031",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ],
+  "vars": {
+    "AUTH_ENABLED": "true",
+    "COURSES_ENABLED": "true",
+    "AI_RESUME_STRUCTURE_ENABLED": "false",
+    "LOCAL_MAIL_PREVIEW": "false",
+    "ACCESS_REQUIRED": "false",
+    "REMINDER_EMAILS_ENABLED": "false"
+  },
+  "env": {
+    "staging": {
+      "vars": {
+        "AUTH_ENABLED": "true",
+        "COURSES_ENABLED": "true",
+        "AI_RESUME_STRUCTURE_ENABLED": "false",
+        "LOCAL_MAIL_PREVIEW": "false",
+        "ACCESS_REQUIRED": "true",
+        "REMINDER_EMAILS_ENABLED": "false"
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "conectavagasdf-staging",
+          "database_id": "00000000-0000-0000-0000-000000000000",
+          "migrations_dir": "migrations"
+        }
+      ],
+      "ratelimits": [
+        {
+          "name": "AI_LIMITER",
+          "namespace_id": "2384619057",
+          "simple": { "limit": 5, "period": 60 }
+        }
+      ],
+      "triggers": { "crons": [] }
+    }
+  },
+  "triggers": {
+    "crons": [
+      "0 4 * * *"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+/* Famílias adicionais têm estruturas próprias; todas mostram apenas dados reais do currículo. */
+.editorial-resume.family-cyber-neon{background:#101922;color:#e8f2f0;--ed-ink:#e8f2f0;--ed-muted:#a8c0be;font-family:Arial,Helvetica,sans-serif;border-left:5mm solid var(--ed-accent)}
+.editorial-resume.family-cyber-neon .editorial-head{border-bottom:2px solid var(--ed-accent);padding-bottom:10mm}
+.editorial-resume.family-cyber-neon h1{font-size:31pt;text-transform:uppercase;letter-spacing:-.06em}
+.editorial-resume.family-cyber-neon .editorial-layout{grid-template-columns:minmax(0,1fr) 43mm;gap:7mm}
+.editorial-resume.family-cyber-neon .editorial-aside{padding:2mm 4mm;background:#1b2b34;border:1px solid var(--ed-accent)}
+.editorial-resume.family-cyber-neon h2{border-bottom:1px solid var(--ed-accent);padding-bottom:2mm}
+.editorial-resume.family-cyber-neon .editorial-entry{padding-left:3mm;border-left:2px solid var(--ed-accent)}
+.editorial-resume.family-cyber-terminal{background:#172128;color:#e7eee9;--ed-ink:#e7eee9;--ed-muted:#b7c8c1;font-family:Consolas,'Courier New',monospace}
+.editorial-resume.family-cyber-terminal .editorial-head{position:relative;margin:-17mm -18mm 0;padding:24mm 18mm 11mm;background:#25343d;border-bottom:1px solid var(--ed-accent)}
+.editorial-resume.family-cyber-terminal .editorial-head:before{content:'●  ●  ●';position:absolute;top:5mm;left:18mm;color:var(--ed-accent);letter-spacing:3mm;font-size:6pt}
+.editorial-resume.family-cyber-terminal h1{font:700 26pt/1.08 Consolas,'Courier New',monospace}
+.editorial-resume.family-cyber-terminal .editorial-layout{grid-template-columns:1fr;gap:0}
+.editorial-resume.family-cyber-terminal .editorial-aside{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 5mm;border-top:1px solid var(--ed-accent)}
+.editorial-resume.family-cyber-terminal h2:before{content:'> ';color:var(--ed-accent)}
+.editorial-resume.family-cyber-circuit{border-left:2mm solid var(--ed-accent)}
+.editorial-resume.family-cyber-circuit .editorial-head{background:var(--ed-soft);padding:6mm;border-bottom:1mm solid var(--ed-accent)}
+.editorial-resume.family-cyber-circuit .editorial-layout{grid-template-columns:1fr 46mm}
+.editorial-resume.family-cyber-circuit .editorial-main{border-left:2px solid var(--ed-accent);padding-left:5mm;margin-left:3mm}
+.editorial-resume.family-cyber-circuit .editorial-main section{position:relative}
+.editorial-resume.family-cyber-circuit .editorial-main section:before{content:'';position:absolute;left:-7.3mm;top:1mm;width:4mm;height:4mm;border:1.2mm solid var(--ed-accent);border-radius:50%;background:#fff}
+.editorial-resume.family-code-clean{font-family:Consolas,'Courier New',monospace}
+.editorial-resume.family-code-clean .editorial-layout{grid-template-columns:1fr;gap:0}
+.editorial-resume.family-code-clean .editorial-aside{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4mm;border-top:1px dashed var(--ed-accent)}
+.editorial-resume.family-code-clean .editorial-head{border-bottom:2px solid var(--ed-accent)}
+.editorial-resume.family-code-clean h1{font:700 25pt/1.1 Consolas,'Courier New',monospace}
+.editorial-resume.family-code-clean h2:before{content:'// ';color:var(--ed-accent)}
+.editorial-resume.family-code-clean .editorial-entry{padding:2mm 0;border-bottom:1px dotted #d6ded8}
+.editorial-resume.family-blueprint{background:linear-gradient(#36556a 1px,transparent 1px),linear-gradient(90deg,#36556a 1px,transparent 1px),#19354a;background-size:12mm 12mm;color:#f0f6f8;--ed-ink:#f0f6f8;--ed-muted:#c3d7dc}
+.editorial-resume.family-blueprint .editorial-head{border:2px solid var(--ed-accent);padding:5mm;background:#19354a}
+.editorial-resume.family-blueprint .editorial-layout{grid-template-columns:1fr 47mm;gap:5mm}
+.editorial-resume.family-blueprint section{border:1px solid #68879a;padding:3mm;background:#19354a}
+.editorial-resume.family-blueprint h2{border-bottom:1px solid var(--ed-accent);padding-bottom:2mm}
+.editorial-resume.family-brutalist{border:3mm solid #202524;padding:13mm;background:#fbfaf7;color:#202524}
+.editorial-resume.family-brutalist .editorial-head{border-bottom:4mm solid #202524}
+.editorial-resume.family-brutalist h1{font:900 38pt/1 Arial,sans-serif;text-transform:uppercase;letter-spacing:-.075em}
+.editorial-resume.family-brutalist .editorial-layout{grid-template-columns:1fr 46mm;gap:5mm}
+.editorial-resume.family-brutalist h2{color:#fff;background:var(--ed-accent);padding:2mm;letter-spacing:0}
+.editorial-resume.family-brutalist .editorial-aside{border-left:3px solid #202524;padding-left:4mm}
+.editorial-resume.family-magazine{font-family:Georgia,'Times New Roman',serif}
+.editorial-resume.family-magazine .editorial-head{display:block;border-top:2mm solid var(--ed-accent);border-bottom:1px solid #222;padding:5mm 0}
+.editorial-resume.family-magazine h1{font:400 44pt/.92 Georgia,serif;letter-spacing:-.07em}
+.editorial-resume.family-magazine .editorial-contact{margin-top:4mm}
+.editorial-resume.family-magazine .editorial-layout{grid-template-columns:1fr 42mm;gap:7mm}
+.editorial-resume.family-magazine [data-section="summary"]{font-size:11pt;font-style:italic}
+.editorial-resume.family-magazine h2{font-family:Arial,sans-serif;border-top:1px solid var(--ed-accent);padding-top:2mm}
+.editorial-resume.family-bento .editorial-layout{display:block}
+.editorial-resume.family-bento .editorial-main{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.editorial-resume.family-bento .editorial-main [data-section="summary"],.editorial-resume.family-bento .editorial-main [data-section="experiences"]{grid-column:1/-1}
+.editorial-resume.family-bento .editorial-main section,.editorial-resume.family-bento .editorial-aside section{margin:4mm 0 0;padding:4mm;border-radius:3mm;background:var(--ed-soft);break-inside:avoid}
+.editorial-resume.family-bento .editorial-aside{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3mm}
+.editorial-resume.family-vertical{border-left:18mm solid var(--ed-accent);padding-left:9mm}
+.editorial-resume.family-vertical:before{content:'CURRÍCULO';position:absolute;top:22mm;left:-13mm;writing-mode:vertical-rl;color:#fff;font:bold 10pt Arial,sans-serif;letter-spacing:.3em}
+.editorial-resume.family-vertical .editorial-layout{grid-template-columns:1fr 45mm;gap:6mm}
+.editorial-resume.family-vertical .editorial-head{border-bottom:3px solid var(--ed-accent)}
+.editorial-resume.family-ticket{border:1px solid var(--ed-accent);padding:12mm 16mm;margin:0 auto}
+.editorial-resume.family-ticket .editorial-head{padding:5mm;background:var(--ed-soft);border:1px dashed var(--ed-accent)}
+.editorial-resume.family-ticket .editorial-layout{grid-template-columns:1fr 49mm;gap:5mm}
+.editorial-resume.family-ticket section{padding:3mm 0;border-bottom:1px dashed var(--ed-accent)}
+.editorial-resume.family-ticket h2:before{content:'◆ ';font-size:7pt}
+.editorial-resume.family-portfolio .editorial-layout{grid-template-columns:1fr 43mm;gap:7mm}
+.editorial-resume.family-portfolio .editorial-main{display:flex;flex-direction:column}
+.editorial-resume.family-portfolio .editorial-main [data-section="projects"]{order:-1}
+.editorial-resume.family-portfolio [data-section="projects"] .editorial-entry{padding:5mm;margin-bottom:3mm;background:var(--ed-soft);border-left:4px solid var(--ed-accent)}
+.editorial-resume.family-portfolio .editorial-head{border-bottom:5px solid var(--ed-accent)}
+.editorial-resume.family-portfolio .editorial-aside{border-left:1px solid var(--ed-accent);padding-left:4mm}
+.editorial-resume.family-dossier .editorial-layout{grid-template-columns:1fr 49mm;gap:8mm}
+.editorial-resume.family-dossier .editorial-main{display:flex;flex-direction:column}
+.editorial-resume.family-dossier .editorial-main [data-section="education"]{order:-2}
+.editorial-resume.family-dossier .editorial-main [data-section="projects"]{order:-1}
+.editorial-resume.family-dossier .editorial-aside{background:var(--ed-soft);padding:4mm}
+.editorial-resume.family-dossier h2{padding-bottom:2mm;border-bottom:2px solid var(--ed-accent)}
+.editorial-resume.family-dossier .editorial-entry{padding-left:3mm;border-left:1px solid var(--ed-accent)}

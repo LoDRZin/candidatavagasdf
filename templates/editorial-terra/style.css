@@ -1,0 +1,19 @@
+.resume-document{--ink:#382e29;--muted:#766a63;--rule:#eadbd2;font-family:Georgia,"Times New Roman",serif;color:var(--ink)}
+.template-terra{box-sizing:border-box;width:210mm;min-height:297mm;margin:0 auto;padding:18mm 19mm;background:#fffdfa}
+.template-terra .resume-header{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;padding-bottom:13px;border-bottom:2px solid #a6543d}
+.template-terra .resume-label{margin:0 0 6px;color:#a6543d;font-size:8pt;font-weight:700;letter-spacing:.18em}
+.template-terra h1{margin:0;font:700 25pt/1.08 Georgia,serif;letter-spacing:-.045em}
+.template-terra .resume-headline{margin:6px 0 0;color:#a6543d;font:italic 11pt Georgia,serif}
+.template-terra .resume-contact{display:grid;gap:4px;color:var(--muted);font:8pt/1.35 Arial,sans-serif;text-align:right}
+.template-terra section{margin-top:15px}
+.template-terra section h2{margin:0 0 6px;padding-bottom:4px;border-bottom:1px solid var(--rule);color:#a6543d;font:700 8.5pt Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.template-terra section p{margin:0;font:9pt/1.55 Arial,sans-serif}
+.template-terra .resume-entry{margin-bottom:9px;break-inside:avoid}
+.template-terra .resume-entry-top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.template-terra .resume-entry h3{margin:0;font:bold 10pt Georgia,serif}
+.template-terra .resume-entry-top>span,.template-terra .resume-subline{color:var(--muted);font:8pt Arial,sans-serif}
+.template-terra .resume-subline{display:flex;justify-content:space-between;gap:8px;margin:3px 0}
+.template-terra ul{margin:4px 0 0;padding-left:16px;font:8.5pt/1.4 Arial,sans-serif}
+.template-terra li{margin:2px 0}
+.template-terra .resume-foot{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}
+@media print{@page{size:A4;margin:0}.template-terra{width:210mm;min-height:297mm;margin:0;padding:18mm 19mm}}
