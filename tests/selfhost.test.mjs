@@ -80,7 +80,7 @@ after(() => { server?.kill(); });
 test('self-host entrega SPA, saúde, cabeçalhos e protege o painel', async () => {
   const health = await request('/healthz');
   assert.equal(health.response.status, 200);
-  assert.match(health.response.headers.get('content-security-policy'), /frame-ancestors 'none'/);
+  assert.match(health.response.headers.get('content-security-policy'), /frame-ancestors 'self' https:\/\/lodrzin\.github\.io/);
   assert.equal((await request('/api/health')).response.status, 200);
   const page = await fetch(`${origin}/dashboard`, { redirect: 'manual' });
   assert.equal(page.status, 302);

@@ -7,7 +7,7 @@ test('Worker responde com proteção HTTP e rota inexistente padrão', async () 
   const ctx = createExecutionContext();
   const health = await worker.fetch(new Request('https://example.test/api/health'), env, ctx);
   expect(health.status).toBe(200);
-  expect(health.headers.get('Content-Security-Policy')).toContain("frame-ancestors 'none'");
+  expect(health.headers.get('Content-Security-Policy')).toContain("frame-ancestors 'self' https://lodrzin.github.io");
   expect(health.headers.get('Strict-Transport-Security')).toContain('max-age=31536000');
 
   const ghost = await worker.fetch(new Request('https://example.test/api/sem-rota'), env, ctx);

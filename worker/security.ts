@@ -23,14 +23,17 @@ export function withSecurityHeaders(response: Response, request: Request) {
     headers.delete('Set-Cookie');
     for (const value of setCookies) headers.append('Set-Cookie', value);
   }
-  const localConnect = ['localhost', '127.0.0.1', '[::1]'].includes(url.hostname) ? ' ws://localhost:* ws://127.0.0.1:*' : '';
-  headers.set('Content-Security-Policy', `default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'${localConnect}; worker-src 'self'; manifest-src 'self'`);
+  const isLocalHost = ['localhost', '127.0.0.1', '[::1]'].includes(url.hostname);
+  const localConnect = isLocalHost ? ' ws://localhost:* ws://127.0.0.1:*' : '';
+  // Apenas o portfólio pode exibir o site em iframe (prévia). Qualquer outra origem continua bloqueada.
+  const frameAncestors = `'self' https://lodrzin.github.io${isLocalHost ? ' http://localhost:* http://127.0.0.1:*' : ''}`;
+  headers.set('Content-Security-Policy', `default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors ${frameAncestors}; form-action 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'${localConnect}; worker-src 'self'; manifest-src 'self'`);
   headers.set('Cross-Origin-Opener-Policy', 'same-origin');
   headers.set('Cross-Origin-Resource-Policy', 'same-origin');
   headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=(), usb=()');
   headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
   headers.set('X-Content-Type-Options', 'nosniff');
-  headers.set('X-Frame-Options', 'DENY');
+  headers.delete('X-Frame-Options');
   if (url.protocol === 'https:') headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
 }

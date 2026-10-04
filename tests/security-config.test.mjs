@@ -9,8 +9,8 @@ test('rotas administrativas passam pelo Worker e assets públicos recebem cabeç
 
   const headers = readFileSync(new URL('../public/_headers', import.meta.url), 'utf8');
   assert.match(headers, /^\/\*/m);
-  assert.match(headers, /Content-Security-Policy:.*frame-ancestors 'none'/);
-  assert.match(headers, /X-Frame-Options: DENY/);
+  assert.match(headers, /Content-Security-Policy:.*frame-ancestors 'self' https:\/\/lodrzin\.github\.io/);
+  assert.doesNotMatch(headers, /X-Frame-Options/);
   assert.match(headers, /Strict-Transport-Security: max-age=31536000/);
 });
 

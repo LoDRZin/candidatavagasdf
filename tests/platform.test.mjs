@@ -209,8 +209,8 @@ test('admin de conta lista, promove e exclui usuários sem permitir autoexclusã
 
 test('fronteira HTTP: cabeçalhos, rotas exatas e autenticação antes do corpo', async () => {
   const health = await expectStatus('/api/health', {}, 200);
-  assert.match(health.headers.get('Content-Security-Policy'), /frame-ancestors 'none'/);
-  assert.equal(health.headers.get('X-Frame-Options'), 'DENY');
+  assert.match(health.headers.get('Content-Security-Policy'), /frame-ancestors 'self' https:\/\/lodrzin\.github\.io/);
+  assert.equal(health.headers.get('X-Frame-Options'), null);
   assert.equal(health.headers.get('X-Content-Type-Options'), 'nosniff');
   assert.equal(health.headers.get('Referrer-Policy'), 'strict-origin-when-cross-origin');
   assert.equal(health.headers.get('Strict-Transport-Security'), null);
